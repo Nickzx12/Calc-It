@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(197, 197, 197);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(197, 197, 197);
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h1, h2, h3 {
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    color: rgb(124, 124, 124);
+    margin-top: 20px;
+}
+
+h2 {
+    color: rgb(100, 142, 182);
+    margin-top: -10px;
+}
+
+h3 {
+    color: rgb(255, 255, 0);
+    margin: 15px 0 5px;
+}
+
+input, select {
+    text-align: center;
+    background-color: rgb(89, 140, 190);
+    color: white;
+    border:rgb(0, 17, 255) solid 2px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+input:hover, select:hover {
+    transform: scale(1.20);
+    background-color:  gold;
+}
+
+input[type="submit"] {
+    background-color: rgb(89, 140, 190);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+input[type="submit"]:hover {
+background-color: gold;
+transform: scale(1.1);
+}
+
+
+ p {
+    color:rgb(112, 112, 112);
+    color: rgb(112, 112, 112);
+    animation: both;
+    animation-duration: 10s;
+   }
+
+form {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
